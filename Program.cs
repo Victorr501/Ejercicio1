@@ -1,11 +1,11 @@
-﻿
-Console.WriteLine("Hola mundo");
-Console.WriteLine("Informaticonfig");
-Console.WriteLine(50 + 60);
+﻿using System;
 
-string persona = "Juan";
-int edad = 30;
-bool esDesarrollador = true;
-
-Console.WriteLine($"Nombre: {persona}, Edad: {edad}, Desarrollador: {esDesarrollador}");
-
+class Program
+{
+    static void Main()
+    {
+        Console.WriteLine("Hola, ¿Como te llamas?");
+        string nombre = Console.ReadLine();
+        Console.WriteLine($"Hola, {nombre}!");
+    }
+}
