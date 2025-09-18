@@ -2,7 +2,7 @@
 
 class Ejercicio2
 {
-    static void Main()
+    public static void Run()
     {
         Console.WriteLine("Intoduce el primer número:");
         string input1 = Console.ReadLine();
