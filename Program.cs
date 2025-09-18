@@ -3,8 +3,10 @@
 class Program
 {
     static void Main()
-    {
-        Ejercicio1.Run();
-        Ejercicio2.Run();
+    {   
+        // Elije el ejercicio que desea ejecutar
+        //Ejercicio1.Run();
+        //Ejercicio2.Run();
+        Ejercicio3.Run();
     }
 }
