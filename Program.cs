@@ -7,6 +7,8 @@ class Program
         // Elije el ejercicio que desea ejecutar
         //Ejercicio1.Run();
         //Ejercicio2.Run();
-        Ejercicio3.Run();
+        //Ejercicio3.Run();
+        //Ejercicio4.Run();
+        ejercicio5.Run();
     }
 }
