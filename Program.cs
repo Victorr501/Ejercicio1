@@ -9,6 +9,10 @@ class Program
         //Ejercicio2.Run();
         //Ejercicio3.Run();
         //Ejercicio4.Run();
-        ejercicio5.Run();
+        //ejercicio5.Run();
+        //ejercicio6.Run();
+        //Ejercicio7.Run();
+        Ejercicio8.Run();
+
     }
 }
