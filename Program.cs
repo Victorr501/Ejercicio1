@@ -5,14 +5,15 @@ class Program
     static void Main()
     {   
         // Elije el ejercicio que desea ejecutar
-        //Ejercicio1.Run();
-        //Ejercicio2.Run();
-        //Ejercicio3.Run();
-        //Ejercicio4.Run();
-        //ejercicio5.Run();
-        //ejercicio6.Run();
-        //Ejercicio7.Run();
-        Ejercicio8.Run();
-
+        //Ejercicio01.Run();
+        //Ejercicio02.Run();
+        //Ejercicio03.Run();
+        //Ejercicio04.Run();
+        //ejercicio05.Run();
+        //ejercicio06.Run();
+        //Ejercicio07.Run();
+        //Ejercicio08.Run();
+        Ejercicio09.Run();
+        Ejercicio10.Run();
     }
 }
