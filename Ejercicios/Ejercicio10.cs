@@ -7,7 +7,7 @@ class Ejercicio10
         string texto = Console.ReadLine();
 
         //Convertir todo a minusculas y elimianr espacios
-        string textoLimpio = new string(texto.ToLower().Replace(" ", ""));
+        string textoLimpio = texto.ToLower().Replace(" ", "");
 
         //Invertir el string
         char[] caracteres = textoLimpio.ToCharArray();

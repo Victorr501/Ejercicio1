@@ -3,7 +3,7 @@
 class Program
 {
     static void Main()
-    {   
+    {
         // Elije el ejercicio que desea ejecutar
         //Ejercicio01.Run();
         //Ejercicio02.Run();
@@ -13,7 +13,12 @@ class Program
         //ejercicio06.Run();
         //Ejercicio07.Run();
         //Ejercicio08.Run();
-        Ejercicio09.Run();
-        Ejercicio10.Run();
+        //Ejercicio09.Run();
+        //Ejercicio10.Run();
+        //Ejercicio11.Run();
+        //Ejercicio11.Run();
+        //Ejercicio12.Run();
+        //Ejercicio13.Run();
+        Ejercicio14.Run();
     }
 }
