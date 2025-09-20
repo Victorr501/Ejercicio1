@@ -1,6 +1,6 @@
 ﻿using System;
 
-class Ejercicio2
+class Ejercicio02
 {
     public static void Run()
     {

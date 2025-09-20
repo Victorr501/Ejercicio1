@@ -1,4 +1,4 @@
-﻿class ejercicio6
+﻿class Ejercicio06
 {
     //Leer varios números y calcular su prodedio
     public static void Run()

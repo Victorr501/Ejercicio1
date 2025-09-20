@@ -1,5 +1,5 @@
 ﻿
-class Ejercicio4
+class Ejercicio04
 {
     public static void Run()
     {

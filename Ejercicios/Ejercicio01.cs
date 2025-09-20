@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-class Ejercicio1
+class Ejercicio01
 {
     public static void Run()
     {

@@ -5,7 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 
 
-class Ejercicio3
+class Ejercicio03
 {
 
     public static void Run()
