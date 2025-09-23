@@ -1,4 +1,4 @@
-﻿class Ejercicio19
+﻿class Ejercicio20
 {
     public static void Run()
     {
@@ -14,6 +14,7 @@
             Console.WriteLine("4. Borrar tarea");
             Console.WriteLine("5. Buscar tareas por palabra clave");
             Console.WriteLine("6. Buscar tareas por rango de fechas");
+            Console.WriteLine("7. Mostrar estadísticas");
             Console.WriteLine("0. Salir (guardado)");
             Console.Write("Elige una opción: ");
 
@@ -113,6 +114,10 @@
                         resultadosFecha.ForEach(t => Console.WriteLine(t));
                     break;
 
+                case 7:
+                    MostrarEstadisticas(tareas);
+                    break;
+
                 case 0:
                     TareaJSON.GardarTarea(tareas);
                     Console.WriteLine("Tareas guardadas. Hata luego!");
@@ -125,5 +130,19 @@
 
             }
         } while (opcion != 0);
+    }
+
+    static void MostrarEstadisticas(List<TareaPrioridad> tareas)
+    {
+        Console.WriteLine("\n ---Estadísticas de Tareas ---");
+
+        Console.WriteLine($"Total de tareas: {tareas.Count}");
+        Console.WriteLine($"Completadas: {tareas.Count(t => t.Completada)}");
+        Console.WriteLine($"Pendientes: {tareas.Count(t => !t.Completada)}");
+
+        Console.WriteLine("\n Por prioridad:");
+        Console.WriteLine($"Alta: {tareas.Count(t => t.Prioridad == NivelPrioridad.Alta)}");
+        Console.WriteLine($"Media: {tareas.Count(t => t.Prioridad == NivelPrioridad.Media)}");
+        Console.WriteLine($"Baja: {tareas.Count(t => t.Prioridad == NivelPrioridad.Baja)}");
     }
 }

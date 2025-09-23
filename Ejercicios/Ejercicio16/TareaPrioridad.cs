@@ -28,7 +28,7 @@ class TareaPrioridad
         return $"{Titulo}|{FechaLimite}|{Completada}|{Prioridad}";
     }
 
-    //PAra cargar desde archivo
+    //Para cargar desde archivo
     public static TareaPrioridad FromFileFormat(string line)
     {
         var partes = line.Split('|');

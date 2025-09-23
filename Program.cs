@@ -24,5 +24,8 @@ class Program
         //Ejercicio16.Run();
         //Ejercicio17.Run();
         //Ejercicio18.Run();
+        //Ejercicio19.Run();
+        //Ejercicio20.Run();
+
     }
 }
